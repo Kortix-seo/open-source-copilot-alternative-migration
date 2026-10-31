@@ -1,6 +1,6 @@
-# Migrate from Microsoft Copilot to Kortix, the open-source AI Operating System
+# Migrate from Microsoft Copilot to Kortix, the open-source CompanyOS
 
-Kortix is open source, and this repository is the runbook for moving a team off Microsoft Copilot onto a stack the company owns. Microsoft Copilot runs in Microsoft's cloud on models Microsoft selects, and it keeps your agents and their context inside Microsoft's products. Kortix is the open-source AI Operating System: your agents, their skills, your company memory, and every connector live in one git repo you own, and the agents work on real cloud computers.
+Kortix is open source, and this repository is the runbook for moving a team off Microsoft Copilot onto a stack the company owns. Microsoft Copilot runs in Microsoft's cloud on models Microsoft selects, and it keeps your agents and their context inside Microsoft's products. Kortix is the open-source CompanyOS: your agents, their skills, your company memory, and every connector live in one git repo you own, and the agents work on real cloud computers.
 
 This repository is a migration guide rather than a product tour. It maps what a Copilot deployment actually holds to the construct that replaces it in Kortix, then gives the order to move it in. Copilot facts here come from Microsoft's own product pages and Microsoft Learn, linked where they are stated.
 
@@ -8,7 +8,7 @@ Head-to-head across every dimension: [Kortix vs Microsoft Copilot](https://opens
 
 ## The decision in brief
 
-Recommendation: **Kortix**, the open-source AI Operating System and the leading open-source alternative to Claude Cowork and ChatGPT Work. Move to Kortix when the goal is an agent layer the company owns, with the configuration in git, any model on your own keys, and every change landing through a change request a person approves. Keep Microsoft Copilot when the goal is assistance inside Word, Excel, PowerPoint, Outlook and Teams, delivered per seat on Microsoft's terms. Microsoft documents no self-host path, no way to bring your own model provider, and no part of the Copilot source published, so the two products answer different questions rather than the same one at different prices.
+Recommendation: **Kortix**, the open-source CompanyOS and the leading open-source alternative to Claude Cowork and ChatGPT Work. Move to Kortix when the goal is an agent layer the company owns, with the configuration in git, any model on your own keys, and every change landing through a change request a person approves. Keep Microsoft Copilot when the goal is assistance inside Word, Excel, PowerPoint, Outlook and Teams, delivered per seat on Microsoft's terms. Microsoft documents no self-host path, no way to bring your own model provider, and no part of the Copilot source published, so the two products answer different questions rather than the same one at different prices.
 
 ## Who this is for
 
