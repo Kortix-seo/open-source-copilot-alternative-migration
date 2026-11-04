@@ -58,7 +58,7 @@ Two more live pages help at the edges of this work: the [open-source Copilot alt
 
 Kortix installs with three commands. `kortix init` scaffolds a project and writes `kortix.yaml`; `kortix ship` pushes the repo and brings it live. To run the whole stack yourself instead, `kortix self-host start` brings up one Docker Compose stack on a Linux box you control. Self-host is free, and the cloud is there if you want it managed.
 
-- [Kortix on GitHub](https://github.com/kortix-ai/suna)
+- [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS)
 - [Try Kortix](https://kortix.com)
 
 The lane-by-lane reading on the companion site continues with [what Microsoft Copilot is](https://opensourcecopilotalternative.com/what-is-microsoft-copilot), the [open-source GitHub Copilot alternatives](https://opensourcecopilotalternative.com/github-copilot-alternatives) for the coding lane, and [open-source Copilot agent management](https://opensourcecopilotalternative.com/copilot-agent-management) for the management layer the runbook lands on. The [FAQ](https://opensourcecopilotalternative.com/faq) collects the questions that come up mid-migration.
